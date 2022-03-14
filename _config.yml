@@ -1,0 +1,87 @@
+# Theme Settings
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "air"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Yaya Training"
+title_separator          : "-"
+name                     : "Yaya"
+description              : "Yaya Training"
+url                      : "https://yaya-training.github.io"
+
+# Social Sharing
+# facebook:
+#   username               :chatmallowscafe
+# instagram:
+#   username               :chat_mallows_cafe
+
+# Site Author
+author:
+  name             : "Yaya"
+  avatar           : "/assets/images/avatar.jpg"
+  location         : "21 rue Béranger 75003 Paris"
+
+# Site Footer
+
+# Reading Files
+include:
+  - _pages
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Outputting
+permalink: /:year/:month/:day/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      classes: wide
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+      comments: true
+      share: true
