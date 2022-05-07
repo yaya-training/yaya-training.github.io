@@ -9,6 +9,7 @@ title_separator          : "-"
 name                     : "Yaya"
 description              : "Yaya Training"
 url                      : "https://yaya-training.github.io"
+logo                     : "/assets/images/logo.png"
 
 # Social Sharing
 # facebook:

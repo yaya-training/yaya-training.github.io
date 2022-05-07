@@ -3,25 +3,15 @@ permalink: /
 hidden: true
 layout: splash
 header:
-  overlay_image: http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg
+  overlay_image: "/assets/images/studio.jpg"
   overlay_filter: 0.5
-  actions:
-    - label: "预约"
-      url: /book/
   caption: "21 rue Béranger 75003 Paris"
-excerpt: "测试"
-intro:
-  - excerpt: "永日不可暮，炎蒸毒我肠。"
+  excerpt: "Yaya Training 工作室位于 21 Rue Béranger, 75003 Paris，基于 Yaya 教练的平衡肌肉理念而建立，着重于身体肌肉平衡（疼痛解决）、塑形减脂私教和 8 人精品小班课程。"
 about:
-  - image_path: http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg
-    alt: "关于本店"
-    title: "关于本店"
-    excerpt: "遂古之初，谁传道之？"
-    url: /about/
-    btn_label: "更多信息"
-    btn_class: "btn--success"
+  - image_path: "/assets/images/avatar.jpg"
+    alt: "预约"
+    title: "预约"
+    excerpt: "微信 yaya_coach"
 ---
-
-{% include feature_row id="intro" type="center" %}
 
 {% include feature_row id="about" type="left" %}
