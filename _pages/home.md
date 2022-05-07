@@ -15,4 +15,4 @@ about:
     excerpt: "微信 yaya_coach"
 ---
 
-{% include feature_row id="about" type="left" %}
+{% include feature_row id="about" type="center" %}
