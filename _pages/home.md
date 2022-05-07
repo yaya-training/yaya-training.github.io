@@ -15,7 +15,9 @@ about:
   - image_path: "/assets/images/avatar.png"
     alt: "预约"
     title: "预约"
-    excerpt: "微信预约或者邮件 [yaya@yaya-training.com](mailto:yaya@yaya-training.com)"
+    excerpt: >
+      微信预约：yaya_coach<br />
+      邮件：[yaya@yaya-training.com](mailto:yaya@yaya-training.com)
 ---
 
 {% include feature_row id="about" type="left" %}
