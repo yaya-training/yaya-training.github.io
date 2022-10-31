@@ -7,8 +7,9 @@ header:
   overlay_filter: 0.5
   caption: "21 rue Béranger 75003 Paris"
 excerpt: >
-  Yaya Training 工作室位于 21 Rue Béranger, 75003 Paris。<br /><br />
-  基于 Yaya 教练的平衡肌肉理念而建立，着重于身体肌肉平衡（疼痛解决）、塑形减脂私教和 8 人精品小班课程。
+  Yaya Training 工作室位于 21 Rue Béranger, 75003 Paris。地铁：République / Temple。<br /><br />
+  基于 Yaya 教练的平衡肌肉理念而建立，着重于身体肌肉平衡（疼痛解决）、塑形减脂私教和 8 人精品小班课程。<br /><br />
+  **Balance Body, Balance Mind.**
 
 gallery:
   - url: /assets/images/studio0.jpg
@@ -17,20 +18,16 @@ gallery:
     image_path: /assets/images/studio1.jpg
   - url: /assets/images/studio2.jpg
     image_path: /assets/images/studio2.jpg
-  - url: /assets/images/studio3.jpg
-    image_path: /assets/images/studio3.jpg
 
 mindbody1:
   - image_path: "/assets/images/mindbody1.jpeg"
     excerpt: "下载 Mindbody"
   - image_path: "/assets/images/mindbody2.jpeg"
     excerpt: "在搜索栏里面键入 Yaya Training"
-
-mindbody2:
   - image_path: "/assets/images/mindbody3.jpeg"
-    excerpt: "点击搜索，选择 Businesses 和 20km，看到 Yaya Training 后，在 View Schedule 里面看到课程"
+    excerpt: "点击搜索，选择 Businesses 和 20km"
   - image_path: "/assets/images/mindbody4.jpeg"
-    excerpt: "不要忘记点上面的小心心收藏哦，下次可以不用每次搜索"
+    excerpt: "在 View Schedule 查看课程，收藏后下次可以不用再次搜索"
 
 contact:
   - image_path: "/assets/images/avatar.png"
@@ -40,10 +37,8 @@ contact:
       邮件：[yaya@yaya-training.com](mailto:yaya@yaya-training.com)
 ---
 
-{% include gallery caption="Balance Body, Balance Mind." %}
+{% include gallery %}
 
-{% include feature_row id="mindbody1" %}
-
-{% include feature_row id="mindbody2" %}
+{% include feature_row id="mindbody" %}
 
 {% include feature_row id="contact" type="left" %}
