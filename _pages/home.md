@@ -12,12 +12,9 @@ excerpt: >
   **Balance Body, Balance Mind.**
 
 gallery:
-  - url: /assets/images/studio0.jpg
-    image_path: /assets/images/studio0.jpg
-  - url: /assets/images/studio1.jpg
-    image_path: /assets/images/studio1.jpg
-  - url: /assets/images/studio2.jpg
-    image_path: /assets/images/studio2.jpg
+  - image_path: /assets/images/studio0.jpg
+  - image_path: /assets/images/studio1.jpg
+  - image_path: /assets/images/studio2.jpg
 
 mindbody:
   - image_path: "/assets/images/mindbody1.jpg"
