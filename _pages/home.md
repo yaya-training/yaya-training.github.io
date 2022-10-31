@@ -10,6 +10,16 @@ excerpt: >
   Yaya Training 工作室位于 21 Rue Béranger, 75003 Paris。<br /><br />
   基于 Yaya 教练的平衡肌肉理念而建立，着重于身体肌肉平衡（疼痛解决）、塑形减脂私教和 8 人精品小班课程。
 
+gallery:
+  - url: /assets/images/studio0.jpg
+    image_path: /assets/images/studio0.jpg
+  - url: /assets/images/studio1.jpg
+    image_path: /assets/images/studio1.jpg
+  - url: /assets/images/studio2.jpg
+    image_path: /assets/images/studio2.jpg
+  - url: /assets/images/studio3.jpg
+    image_path: /assets/images/studio3.jpg
+
 mindbody1:
   - image_path: "/assets/images/mindbody1.jpeg"
     excerpt: "下载 Mindbody"
@@ -30,6 +40,10 @@ contact:
       邮件：[yaya@yaya-training.com](mailto:yaya@yaya-training.com)
 ---
 
-{% include feature_row id="mindbody1" type="center" %}
-{% include feature_row id="mindbody2" type="center" %}
+{% include gallery caption="Balance Body, Balance Mind." %}
+
+{% include feature_row id="mindbody1" %}
+
+{% include feature_row id="mindbody2" %}
+
 {% include feature_row id="contact" type="left" %}
