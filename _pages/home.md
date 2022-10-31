@@ -19,7 +19,7 @@ gallery:
   - url: /assets/images/studio2.jpg
     image_path: /assets/images/studio2.jpg
 
-mindbody1:
+mindbody:
   - image_path: "/assets/images/mindbody1.jpeg"
     excerpt: "下载 Mindbody"
   - image_path: "/assets/images/mindbody2.jpeg"
