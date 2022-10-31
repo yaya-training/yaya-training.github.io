@@ -16,12 +16,18 @@ gallery:
   - image_path: /assets/images/studio1.jpg
   - image_path: /assets/images/studio2.jpg
 
+intro:
+  - excerpt: "课程预定通过 Mindbody 平台，如程序遇到问题，可联系 Yaya 教练。"
+
 mindbody:
   - image_path: "/assets/images/mindbody1.jpg"
-    excerpt: "下载 Mindbody，在搜索栏里面键入 Yaya Training"
+    title: "下载 Mindbody App"
+    excerpt: "在搜索栏里面键入 Yaya Training"
   - image_path: "/assets/images/mindbody3.jpg"
+    title: "找到 Yaya Training"
     excerpt: "点击搜索，选择 Businesses 和 20km"
   - image_path: "/assets/images/mindbody4.jpg"
+    title: "收藏"
     excerpt: "在 View Schedule 查看课程，收藏后下次可以不用再次搜索"
 
 contact:
@@ -33,6 +39,8 @@ contact:
 ---
 
 {% include gallery %}
+
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row id="mindbody" %}
 
