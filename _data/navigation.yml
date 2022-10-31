@@ -2,3 +2,7 @@
 main:
   - title: "首页"
     url: /
+  - title: "课程 Classes"
+    url: /classes
+  - title: "产品 Online store"
+    url: /store
