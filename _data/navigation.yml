@@ -3,6 +3,6 @@ main:
   - title: "首页"
     url: /
   - title: "课程 Classes"
-    url: /classes
+    url: https://clients.mindbodyonline.com/classic/mainclass?fl=true&tabID=7
   - title: "产品 Online store"
-    url: /store
+    url: https://clients.mindbodyonline.com/Pages/OnlineStore.aspx?studioid=5726671&partnerID=0&catid=
