@@ -20,13 +20,11 @@ gallery:
     image_path: /assets/images/studio2.jpg
 
 mindbody:
-  - image_path: "/assets/images/mindbody1.jpeg"
-    excerpt: "下载 Mindbody"
-  - image_path: "/assets/images/mindbody2.jpeg"
-    excerpt: "在搜索栏里面键入 Yaya Training"
-  - image_path: "/assets/images/mindbody3.jpeg"
+  - image_path: "/assets/images/mindbody1.jpg"
+    excerpt: "下载 Mindbody，在搜索栏里面键入 Yaya Training"
+  - image_path: "/assets/images/mindbody3.jpg"
     excerpt: "点击搜索，选择 Businesses 和 20km"
-  - image_path: "/assets/images/mindbody4.jpeg"
+  - image_path: "/assets/images/mindbody4.jpg"
     excerpt: "在 View Schedule 查看课程，收藏后下次可以不用再次搜索"
 
 contact:
